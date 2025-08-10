@@ -38,6 +38,7 @@ This guide provides step-by-step instructions to set up the project locally.
 - Maven 3.6 or higher
 - MySQL Server (version 8 or compatible)
 - An IDE such as IntelliJ IDEA or Eclipse (I used Spring Boot 3.3)
+- MAMP
 
 Step 1: Clone the Repository
 
