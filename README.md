@@ -28,3 +28,41 @@ This project is a comprehensive business management system designed to handle em
 
 Anticipated Workflow
 ![workflow](workflow.png)
+
+## Quick Installation Guide
+
+This guide provides step-by-step instructions to set up the project locally.
+### Prerequisites
+
+- Java Development Kit (JDK) 17 or higher
+- Maven 3.6 or higher
+- MySQL Server (version 8 or compatible)
+- An IDE such as IntelliJ IDEA or Eclipse (I used Spring Boot 3.3)
+
+Step 1: Clone the Repository
+
+git clone https://github.com/JFishProgramming/SeniorProject.git
+
+Step 2: Configure MySQL Database
+
+[seniorproject.sql](seniorproject.sql)
+
+Step 3: Update the application.properties file with your database credentials:
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+```
+Step 4: Build the Project
+
+`mvn clean install`
+
+Step 5: Run the Application
+
+`mvn spring-boot:run`
+
+Step 6: Access the Application
+
+Open your browser and navigate to:
+http://localhost:8080
