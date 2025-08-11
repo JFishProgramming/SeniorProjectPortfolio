@@ -221,11 +221,13 @@ public class ProductsController {
 *Anticipated Workflow*
 ![workflow](workflow.png)
 
-*logical Solution Design*
-![logical_solution_design](logical_solution_design.png)
 
-*Physical Solution Design*
-![physical_solution_design](physical_solution_design.png)
+*Logical Depiction of the System*
+![logical_depiction_of_system](logical_depiction_of_system.png)
+
+
+*Physical Depiction of the System*
+![physical_depiction_of_system](physical_depiction_of_system.png)
 
 ## Quick Installation Guide
 
