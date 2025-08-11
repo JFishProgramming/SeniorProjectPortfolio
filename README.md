@@ -244,7 +244,7 @@ Step 1: Clone the Repository
 
 git clone https://github.com/JFishProgramming/SeniorProject.git
 
-Step 2: Import this MySQL Database
+Step 2: Import this MySQL Database with MAMP
 
 [seniorproject.sql](seniorproject.sql)
 
