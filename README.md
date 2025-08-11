@@ -250,7 +250,7 @@ Step 2: Import this MySQL Database with MAMP
 
 Step 3: Update the application.properties file with your database credentials:
 ```
-spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+spring.datasource.url=jdbc:mysql://localhost:3306/seniorproject
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
